@@ -47,51 +47,15 @@ h3 {
     transition: opacity ease-in-out 0.2s;
 }
 
-#resume{
-    width: 30px;
-    float: right;
-    margin-right: 12.5px;
-    position: relative
-}
-
-#resume:hover{
-    opacity: 0.5;
-    transition: opacity ease-in-out 0.2s;
-}
-
-#resume1{
-    width: 30px;
-    margin-right: 12.5px;
-    position: relative
-}
-
-#resume1:hover{
-    opacity: 0.5;
-    transition: opacity ease-in-out 0.2s;
-}
-
 #headshot{
+    display: block;
     width: 200px;
     border: 2px solid black;
     border-radius: 2px;
-}
-
-#mbp{
-    width: 355.5px;
-    border: 2px solid black;
-    border-radius: 2px;
-}
-
-#sparty{
-    width: 266.75px;
-    border: 2px solid black;    
-    border-radius: 2px;
-}
-
-#ohio{
-    width: 275px;
-    border: 2px solid black;
-    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: rgba(0,0,0,0.1) 0 0 20px;
 }
 
 #spartan{
@@ -113,88 +77,3 @@ h3 {
     flex-direction: column;
     flex-wrap: wrap;
 }
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical
-  }
-  
-  input[type=submit] {
-    background-color: rgb(145, 145, 145);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 500px;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #808080;
-  }
-  
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-      
-  }
-  
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-        
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) {
-        
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-        
-  }
-  
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-        
-  }
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-        
-  }
