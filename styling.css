@@ -12,6 +12,7 @@ p{
 
 h1 {
     border-bottom: 5px solid #ffffff;
+    text-align: center;
 }
 
 h2 {
@@ -26,16 +27,6 @@ h3 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     font-size: 2em;
     padding-bottom: 5px;
-}
-
-#connect{
-    width: 30px;
-    float: right;
-}
-
-#connect:hover{
-    opacity: 0.5;
-    transition: opacity ease-in-out 0.2s;
 }
 
 #connect1{
